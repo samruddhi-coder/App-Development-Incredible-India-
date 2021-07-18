@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/d"/>
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:text="First name"
+        android:textSize="30dp"
+        android:textAlignment="center" />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:id="@+id/fi"/>
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:text="email id"
+        android:textSize="30dp"
+        android:textAlignment="center" />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:id="@+id/em"/>
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:text="password"
+        android:textSize="30dp"
+        android:textAlignment="center" />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:id="@+id/pa"/>
+    <Button
+    android:layout_width="250dp"
+    android:layout_height="50dp"
+    android:layout_gravity="center"
+    android:text="Login"
+    android:background="@drawable/bg3"
+    android:textColor="#FFFF"
+    android:textStyle="bold"
+    android:id="@+id/log"
+    android:textSize="22dp" />
+
+
+
+
+
+</LinearLayout>

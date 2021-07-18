@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ABOUT US"
+        android:textColor="#FF0000"
+        android:textSize="45dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:src="@drawable/e"/>
+    <TextView
+        android:layout_width="380dp"
+        android:layout_height="40dp"
+        android:text="1)shruti bhapkar"
+        android:textColor="#000000"
+
+        android:textStyle="bold"
+        android:textSize="25dp"
+        />
+    <TextView
+        android:layout_width="380dp"
+        android:layout_height="40dp"
+        android:text="DEPT=CO(SY)"
+        android:textColor="#000000"
+
+
+        android:textStyle="bold"
+        android:textSize="25dp"/>
+    <TextView
+        android:layout_width="380dp"
+        android:layout_height="40dp"
+        android:text="email-Shruti"
+        android:textColor="#000000"
+
+        android:textStyle="bold"
+        android:textSize="25dp"/>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:src="@drawable/e"/>
+    <TextView
+        android:layout_width="380dp"
+        android:layout_height="40dp"
+        android:text="2)samruddhi desai"
+        android:textColor="#000000"
+
+        android:textStyle="bold"
+        android:textSize="25dp"
+        />
+    <TextView
+        android:layout_width="380dp"
+        android:layout_height="40dp"
+        android:text="DEPT=CO(SY)"
+        android:textColor="#000000"
+
+
+        android:textStyle="bold"
+        android:textSize="25dp"/>
+    <TextView
+        android:layout_width="380dp"
+        android:layout_height="40dp"
+        android:text="email=sam"
+        android:textColor="#000000"
+
+
+        android:textStyle="bold"
+        android:textSize="25dp"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="proceed"
+        android:background="@drawable/bg3"
+        android:textColor="#FFFF"
+        android:textStyle="bold"
+
+        android:id="@+id/pr"
+        android:textSize="22dp" />
+
+
+</LinearLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="70dp"
+        android:layout_margin="20dp"
+        android:text="Login"
+        android:gravity="center"
+        android:textSize="50dp" />
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:src="@drawable/ll" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="65dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:text="Username"
+
+            android:textSize="25dp"/>
+
+        <EditText
+            android:id="@+id/na"
+            android:layout_width="195dp"
+            android:layout_height="65dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="65dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:textColor="#000000"
+            android:text="Password"
+            android:textStyle="bold"
+
+            android:textSize="25dp"/>
+
+        <EditText
+            android:id="@+id/ps"
+            android:layout_width="195dp"
+            android:layout_height="65dp" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/book1"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:text="login"
+        android:textColor="#FFFF"
+        android:background="#FFA500"
+        android:textSize="32dp"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/book2"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:text="registration"
+        android:textSize="32dp"
+        android:textColor="#FFFF"
+        android:background="#FFA500"
+
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>
